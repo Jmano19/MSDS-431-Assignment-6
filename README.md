@@ -237,7 +237,7 @@ All AI-assisted code was reviewed, modified where necessary, and executed locall
 
 ### GenAI Documentation
 
-A supporting development activity log is included in [`GENAI_LOG.md`](GENAI_LOG.md). It summarizes the AI-assisted development activities, the tasks addressed, and the local verification performed during the assignment.
+A supporting development activity log is included in [`GENAI_LOG.md`](GENAI_LOG.md), which summarizes AI-assisted development activities, and - [GenAI Conversation Log](GENAI_CONVERSATION_LOG.md), which contains representative conversation excerpts documenting the use of ChatGPT during implementation, testing, benchmarking, and documentation.
 
 The log is a summary of the development process rather than a verbatim transcript of the conversations.
 
