@@ -224,13 +224,22 @@ The results are specific to the tested hardware, image set, and workload. Larger
 
 ## GenAI Tools
 
-OpenAI ChatGPT was used as a development assistant during this project to:
+OpenAI ChatGPT (GPT-6) was used as a generative AI development assistant throughout this assignment. ChatGPT assisted with the following activities:
 
-- Help understand the original Go image-processing pipeline.
-- Assist with implementing error handling and pipeline changes.
-- Develop unit tests and benchmark functions.
-- Troubleshoot compilation and execution issues.
-- Review benchmark results and assist with project documentation.
+- **Code understanding:** Reviewed the original CODEHEIM Go image-processing pipeline and explained its use of goroutines and channels.
+- **Implementation:** Assisted with restructuring the application into sequential and concurrent processing modes and implementing the staged goroutine pipeline.
+- **Error handling:** Helped identify and implement checks for missing input files, invalid image data, output directory creation, and JPEG writing failures.
+- **Testing:** Assisted in developing unit tests for image reading, writing, resizing, grayscale conversion, sequential processing, concurrent processing, and missing-input scenarios.
+- **Benchmarking:** Helped develop Go benchmark functions, interpret benchmark output, calculate throughput improvements, and compare sequential and concurrent performance.
+- **Debugging and documentation:** Assisted with troubleshooting Go compilation and execution issues and preparing the README documentation.
+
+All AI-assisted code was reviewed, modified where necessary, and executed locally. Test results, application behavior, and benchmark measurements were verified in the local Go environment.
+
+### GenAI Documentation
+
+A supporting development activity log is included in [`GENAI_LOG.md`](GENAI_LOG.md). It summarizes the AI-assisted development activities, the tasks addressed, and the local verification performed during the assignment.
+
+The log is a summary of the development process rather than a verbatim transcript of the conversations.
 
 All generated code was reviewed, executed, and tested locally. The final implementation and benchmark results were verified in the local Go environment.
 
