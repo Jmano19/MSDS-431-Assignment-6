@@ -19,3 +19,7 @@
 
 # Go workspace file
 go.work
+
+# Generated image-processing outputs
+images/output/*.jpeg
+images/output/*/*.jpeg
